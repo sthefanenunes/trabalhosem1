@@ -1,0 +1,138 @@
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do Cabeçalho */
+header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+img{
+    width: 250px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #000000;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.intro {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Estilização da Seção Explicativa com CTA */
+.explicativa {
+    text-align: center;
+    padding: 20px 0;
+}
+
+button.cta {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Seção de Depoimentos */
+.depoimentos {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.depoimento-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.depoimento {
+    border: 2px solid #bdc3c7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 45%; /* Ajuste a largura conforme necessário */
+}
+
+.depoimento-content {
+    padding: 15px;
+}
+
+.depoimento span {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+/* Estilização da Seção de Destaques e Marcas Parceiras */
+/* Seção de Destaques e Marcas Parceiras */
+.destaques {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.destaque {
+    width: 120px; /* Ajuste a largura conforme necessário */
+    margin: 10px; /* Adicione margens para espaçamento entre as marcas */
+    text-align: center; /* Centralize o texto */
+    padding: 10px; /* Adicione preenchimento interno para espaçamento interno */
+    border: 1px solid #ccc; /* Adicione uma borda para separar visualmente as marcas */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.destaque img {
+    width: 80%; /* Ajuste a largura da imagem */
+    margin-bottom: 10px; /* Adicione espaçamento inferior entre a imagem e o texto */
+}
+
+.destaque p {
+    font-size: 14px; /* Ajuste o tamanho da fonte do texto */
+    margin: 0; /* Remova as margens padrão do parágrafo */
+}
+
+/* Estilização do Rodapé */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newsletter, .informacoes-contato {
+    width: 45%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
